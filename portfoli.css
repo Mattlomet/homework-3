@@ -1,0 +1,112 @@
+.heading {
+	font-family: 'Monofett', cursive;
+	font-size: 45px;
+	box-sizing: border-box;
+	text-align: right;
+	padding: 1px;
+}
+
+.links {
+	font-family: 'Macondo', cursive;
+	font-size: 30px;
+	text-align: left;
+	display: inline;
+	float: left;
+	margin: 0px;
+}
+
+.body {
+	background-image: url(https://cdn.allwallpaper.in/wallpapers/2048x1152/14480/minimalistic-pink-gradient-2048x1152-wallpaper.jpg);
+}
+
+.paragraphs {
+	text-align: center;
+	float: right;
+	width: 508px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.images{
+	border: 5px solid black;
+	display: block;
+	margin: 5px;
+}
+.image{
+	height: 300px;
+	width: 300px;
+	margin: 10px;
+	display: block;
+	background-size: 100% 100%;
+	transition: all 1s;
+	border: 5px solid black;
+
+}
+
+.image:hover{
+
+	border-radius: 50%;
+
+}
+#image1 {
+	background-image: url(http://vignette4.wikia.nocookie.net/logopedia/images/7/78/McAfee_2009.png/revision/latest?cb=20130820184749);
+}
+
+#image2 {
+	background-image: url(http://vignette3.wikia.nocookie.net/logopedia/images/8/80/180px-Intel_Inside_2011-Present.png/revision/latest?cb=20130414145248);
+}
+
+#image3 {
+	background-image: url(https://www.technobuffalo.com/wp-content/uploads/2015/12/verizon_logo.jpg);
+}
+
+.clear {
+	clear: both;
+}
+
+
+@media all and (min-width: 1200px){
+	body{
+		background-color: grey;
+
+	}
+
+	.paragraphs {
+		width: 70%;
+
+}
+
+@media all and (min-width: 768px) and (max-width: 979px) {
+
+	body{
+		background-color: white;
+	}
+	.paragraphs {
+		max-width: 50%;
+    	min-width: 40%;
+	}
+
+
+}
+
+@media all and (max-width:  767px){
+
+	body{
+		background-color: yellow;
+	}
+
+	.paragraphs {
+		max-width: 40%;
+		min-width: 0%;
+		float: left;
+	}
+
+	.image {
+		float: left
+	}
+
+
+}
+
